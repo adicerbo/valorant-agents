@@ -1,33 +1,63 @@
+h1 {
+    color: red;
+}
 
+input {
+    color: red;
+    outline-color: white;
+    border-color: white;
+    font-weight: bold;
+}
 
 #charImage {
     height: 400px;
 }
 
+h3 {
+    color: red;
+}
+
 p {
     font-weight: bold;
+    color: red;
+}
+
+#name {
+    font-weight: normal;
+    color: white;
 }
 
 #lore {
     font-weight: normal;
+    color: white;
 }
 
 #role {
     font-weight: normal;
+    color: white;
 }
 
 #ability1 {
     font-weight: normal;
+    color: white;
 }
 
 #ability2 {
     font-weight: normal;
+    color: white;
 }
 
-#ability3 {
+#grenade {
     font-weight: normal;
+    color: white;
 }
 
 #ultimate {
     font-weight: normal;
+    color: white;
 }
+
+body {
+    background-color: black;
+}
+
