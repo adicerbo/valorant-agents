@@ -6,7 +6,7 @@ const $input = $('input[type="text"]');
 let $name = $('#name');
 let $ability1 = $('#ability1');
 let $ability2 = $('#ability2');
-let $ability3 = $('#ability3');
+let $grenade = $('#grenade');
 let $ultimate = $('#ultimate');
 let $lore = $('#lore');
 let $role = $('#role');
@@ -53,8 +53,8 @@ function handleGetData (event) {
         $ability1.append(charInfo.abilities[0].description);
         $ability2.text(charInfo.abilities[1].displayName + " - ");
         $ability2.append(charInfo.abilities[1].description);
-        $ability3.text(charInfo.abilities[2].displayName + " - ");
-        $ability3.append(charInfo.abilities[2].description);
+        $grenade.text(charInfo.abilities[2].displayName + " - ");
+        $grenade.append(charInfo.abilities[2].description);
         $ultimate.text(charInfo.abilities[3].displayName + " - ");
         $ultimate.append(charInfo.abilities[3].description);
         // $ultimate.append(charInfo.abilties[0]`<img id = "icon1" src = '${icon1.displayIcon}'`)
