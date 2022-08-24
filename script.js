@@ -10,6 +10,8 @@ let $ability3 = $('#ability3');
 let $ultimate = $('#ultimate');
 let $lore = $('#lore');
 let $role = $('#role');
+let charImage = $('#charImage')
+let $icon1 = $('#icon1')
 
 // let thisData = [];
 // let filterResult = [];
@@ -24,7 +26,9 @@ $.ajax(URL).then(function (data) {
 // event listener
 $form.on('submit', handleGetData);
 
+// function to fetch data
 function handleGetData (event) {
+    charImage.innerText="";
     event.preventDefault();
     userInput = $input.val();
     if ($input === "") return 
@@ -34,6 +38,7 @@ function handleGetData (event) {
             
         });
         console.log(charInfo);
+
         // fetch lore
         $lore.text(charInfo.description);
 
@@ -52,9 +57,12 @@ function handleGetData (event) {
         $ability3.append(charInfo.abilities[2].description);
         $ultimate.text(charInfo.abilities[3].displayName + " - ");
         $ultimate.append(charInfo.abilities[3].description);
+        // $ultimate.append(charInfo.abilties[0]`<img id = "icon1" src = '${icon1.displayIcon}'`)
 
+        // appending image to page
+        $('main').append(`<img id = "charImage" src = '${charInfo.fullPortrait}'/>`)
 
-        $('main').append(`<img src = `)
+        
 
     });
 };
