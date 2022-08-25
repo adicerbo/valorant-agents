@@ -43,7 +43,8 @@ function handleGetData (event) {
         $lore.text(charInfo.description);
 
         // fetch role
-        $role.text(charInfo.role.displayName);
+        $role.text(charInfo.role.displayName + " - ");
+        $role.append(charInfo.role.description);
 
         // fetch agent name
         $name.text(charInfo.displayName);
