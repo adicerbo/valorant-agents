@@ -1,5 +1,35 @@
+/* .flex-container {
+    display: flex;
+    flex-wrap: flex;
+} */
+
+.title {
+    height: 50px;
+}
+
+.name {
+    height: 50px;
+}
+
+.background {
+    height: 50px;
+    position:relative;
+}
+
+.role {
+    height: 50px;
+    position: relative;
+}
+
+.abilities {
+    height: 175px;
+    position: relative;
+}
+
 h1 {
     color: red;
+    text-align: center;
+    font-family: Helvetica;
 }
 
 input {
@@ -59,5 +89,6 @@ p {
 
 body {
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 

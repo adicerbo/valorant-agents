@@ -49,6 +49,7 @@ function handleGetData (event) {
         $name.text(charInfo.displayName);
 
         // fetch abilities/descriptions
+        // $ability1.append(`<img id = "icon1" src = '${charInfo.abilities[0].displayIcon}'/>`)
         $ability1.text(charInfo.abilities[0].displayName + " - ");
         $ability1.append(charInfo.abilities[0].description);
         $ability2.text(charInfo.abilities[1].displayName + " - ");
@@ -57,7 +58,7 @@ function handleGetData (event) {
         $grenade.append(charInfo.abilities[2].description);
         $ultimate.text(charInfo.abilities[3].displayName + " - ");
         $ultimate.append(charInfo.abilities[3].description);
-        // $ultimate.append(charInfo.abilties[0]`<img id = "icon1" src = '${icon1.displayIcon}'`)
+        
 
         // appending image to page
         $('main').append(`<img id = "charImage" src = '${charInfo.fullPortrait}'/>`)
