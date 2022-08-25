@@ -13,16 +13,6 @@ let $role = $('#role');
 let charImage = $('#charImage')
 let $icon1 = $('#icon1')
 
-// let thisData = [];
-// let filterResult = [];
-
-// calling data
-$.ajax(URL).then(function (data) {
-    // console.log(data)
-    // thisData = data.data
-    // console.log(thisData)
-});
-
 // event listener
 $form.on('submit', handleGetData);
 
@@ -68,81 +58,3 @@ function handleGetData (event) {
 
     });
 };
-
-// function handleGetData(event) {
-//     event.preventDefault()
-//     userInput = $input.val()
-    // console.log(userInput)
-    // filterResult = thisData.filter(checkName) 
-    // console.log(filterResult[0].abilities)
-    // function checkName(ele) {
-    // //    return 1==1
-    // return ele.displayName === userInput
-
-    // }
-    
-// }
-
-//     functions
-//     thisData.forEach(function (allData) {
-//         // accessing all data
-//         // console.log(allData.abilities)
-//         let allAbilities = allData.abilities
-
-//         // accessing all abilities for each agent
-//         allAbilities.forEach(function (abil) {
-//             let abili = abil
-//             // console.log(abil)
-//         })
-
-//         // accessing all names for agents
-//         let allNames = allData.displayName
-//         console.log(allNames)
-
-//         // filtering out names
-//         // let filteredName = allNames.filter()
-//         // console.log(filteredName)
-
-
-//         // accessing all descriptions for each agent
-//         let allDesc = allData.description
-//         // console.log(allDesc)
-
-//         // accessing all primary images of agents
-//         let allPortraits = allData.fullPortrait
-//         // console.log(allPortraits)
-
-
-//     })
-
-
-// const showAgent = (data) => {
-//     data.
-// }
-
-
-
-// const $name = $('#displayName')
-
-// $.ajax({
-//     url: "https://valorant-api.com/v1/agents"
-// })
-// .then(
-//     (data) => {
-//         $name.text(data.displayName)
-//     }
-// )
-
-// console.log($name)
-
-// const $description = $('#description')
-// const $portrait = $('#fullPortrait')
-// const $role = $('#displayName')
-// const $name = $('#displayName')
-// const $name = $('#displayName')
-// const $name = $('#displayName')
-// const $name = $('#displayName')
-// const $name = $('#displayName')
-// const $name = $('#displayName')
-// const $name = $('#displayName')
-// const $input = $('input[type = "text"]')
