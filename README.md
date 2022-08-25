@@ -8,3 +8,5 @@ A straight to the point application that tells you everything you need to know a
 - jQuery
 - VALORANT API
 
+## Screenshot
+![alt text](https://imgur.com/a/qcx8qfM)
