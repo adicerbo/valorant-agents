@@ -9,4 +9,4 @@ A straight to the point application that tells you everything you need to know a
 - VALORANT API
 
 ## Screenshot
-<img src = "https://imgur.com/a/qcx8qfM" alt = "app Screenshot">
+<img src = 'https://imgur.com/a/qcx8qfM' alt = "app Screenshot">
